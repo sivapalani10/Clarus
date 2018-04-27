@@ -1,0 +1,26 @@
+namespace PK_Development.SPALAN;
+     
+@Schema: 'SPALANISWAMY'
+context CONSULTANT {
+ 
+ENTITY TA_CONSULTANT {
+
+KEY NAME1: String(20);
+  LNAME : String(20);
+  DATETO: LocalDate; // (Key)	DATE	
+  DATEFROM: LocalDate; //(Key)	DATE
+STATUS_FLAG: String(1); // N (new) or X (old)
+ 
+};
+ 
+TYPE TT_CONSULTANT {
+ 
+NAME1: String(20);
+LNAME : String(20);
+DATETO: LocalDate; // (Key)	DATE	
+DATEFROM: LocalDate; //(Key)	DATE
+STATUS_FLAG: String(1); // N (new) or X (old)
+
+}
+
+};
